@@ -5,7 +5,7 @@ const routes = require("./routes");
 const app = express();
 
 mongoose.connect(
-  "mongodb+srv://admin:dent123@cluster0-ke6rw.mongodb.net/week10?retryWrites=true&w=majority",
+  "mongodb+srv://admin:senha@cluster0-ke6rw.mongodb.net/week10?retryWrites=true&w=majority",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true
